@@ -171,6 +171,7 @@ async function ProjectDetail({
                 </p>
               ))}
             </div>
+            
 
             <div className="mt-6 rounded-2xl border border-slate-200/70 bg-white/60 p-6 backdrop-blur-sm dark:border-slate-800 dark:bg-white/[0.03]">
               <h3 className="flex items-center gap-2.5 font-semibold text-slate-900 dark:text-white">
@@ -187,6 +188,25 @@ async function ProjectDetail({
                       <CheckIcon className="h-2.5 w-2.5" strokeWidth={3} />
                     </span>
                     {highlight}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="mt-6 rounded-2xl border border-slate-200/70 bg-white/60 p-6 backdrop-blur-sm dark:border-slate-800 dark:bg-white/[0.03]">
+              <h3 className="flex items-center gap-2.5 font-semibold text-slate-900 dark:text-white">
+                <CheckIcon className="h-4.5 w-4.5 text-emerald-500" />
+                Key features
+              </h3>
+              <ul className="mt-4 grid gap-3 sm:grid-cols-3">
+                {project.features.map(( feature) => (
+                  <li
+                    key={feature}
+                    className="flex items-start gap-2.5 text-sm text-slate-600 dark:text-slate-300"
+                  >
+                    <span className="mt-0.5 flex h-4.5 w-4.5 flex-none items-center justify-center rounded-full bg-emerald-500/15 text-emerald-500">
+                      <CheckIcon className="h-2.5 w-2.5" strokeWidth={3} />
+                    </span>
+                    {feature}
                   </li>
                 ))}
               </ul>

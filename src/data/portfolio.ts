@@ -11,7 +11,7 @@ export const profile = {
   designations: ["Aspiring Full Stack & SecWeb Developer"],
   currentRole: "Full Stack Developer",
   initials: "KMHI",
-  photo: "/public/images/my-photo.png",
+  photo: "/images/my-photo.png",
   tagline:
     "Building modern web applications with a full-stack mindset and a security-first approach.",
   location: "Chattogram, Bangladesh",
@@ -21,7 +21,7 @@ export const profile = {
   phoneHref: "+880 1812-684611",
   whatsapp: "+880 1812-684611",
   whatsappHref: "https://wa.me/8801812684611",
-  resumeUrl: "/public/Mehadi_Hasan_Ifty_Resume.pdf",
+  resumeUrl: "/Mehadi_Hasan_Ifty_Resume.pdf",
   yearsOfExperience: "Fresher",
   projectsCompleted: "7+",
   happyClients: "0",
@@ -264,7 +264,7 @@ export type Project = {
   image: string;
   tech: string[];
   description: string[];
-  features?: string[];
+  features: string[];
   liveUrl: string;
   repoUrl: string;
   highlights: string[];
@@ -276,9 +276,9 @@ export const projects: Project[] = [
   {
     slug: "bazar-dor",
     name: "Bazar Dor",
-    category: "Full Stack · Market Price Tracker",
+    category: "Market Price Tracker",
     tagline: "Market price tracker",
-    image: "/public/images/bazar-dor-app.png",
+    image: "/images/bazar-dor-app.png",
     tech: ["Next.js", "React", "TypeScript", "CSS", "REST API", "Better Auth", "MongoDB"],
     liveUrl: "https://bazar-dor-nextjs-app.vercel.app/",
     repoUrl: "https://github.com/mehadihasanifty/bazar-dor-nextjs-app.git",
@@ -323,9 +323,9 @@ improvements: [
   {
     slug: "fitlog",
     name: "FitLog",
-    category: "Full Stack · Market Price Tracker",
+    category: "Workout Management & Tracking",
     tagline: "Workout management & tracking",
-    image: "/public/images/fit-log.png",
+    image: "/images/fit-log.png",
     tech:["Next.js", "React", "TypeScript", "Tailwind CSS", "REST API"],
     liveUrl: "https://fitlog-nextjs-app.vercel.app/",
     repoUrl: "https://github.com/mehadihasanifty/fitlog-nextjs-app.git",
@@ -367,9 +367,9 @@ improvements: [
   {
     slug: "wanderlust",
     name: "Wanderlust",
-    category: "Travel planning hub",
+    category: "Full Stack - Travel planning hub",
     tagline: "Travel planning hub",
-    image: "/public/images/wanderlust.png",
+    image: "/images/wanderlust.png",
     tech: ["Next.js", "React", "JavaScript", "CSS", "REST API", "Node.js", "Express.js"],
     liveUrl: "https://wanderlust-client-eosin.vercel.app/",
     repoUrl: "https://github.com/mehadihasanifty/wanderlust-client.git",
