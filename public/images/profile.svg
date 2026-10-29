@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="560" viewBox="0 0 480 560">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="50%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#a21caf"/>
+    </linearGradient>
+    <linearGradient id="person" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#e2e8f0" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="560" fill="url(#bg)"/>
+  <circle cx="80" cy="90" r="120" fill="#ffffff" opacity="0.06"/>
+  <circle cx="420" cy="480" r="150" fill="#ffffff" opacity="0.07"/>
+  <circle cx="400" cy="60" r="40" fill="#ffffff" opacity="0.08"/>
+  <!-- Head -->
+  <circle cx="240" cy="220" r="85" fill="url(#person)"/>
+  <!-- Body -->
+  <path d="M240 330c-95 0-160 60-160 140v90h320v-90c0-80-65-140-160-140z" fill="url(#person)"/>
+  <!-- Accessory: collar -->
+  <path d="M240 345l-42 48h84z" fill="#6366f1" opacity="0.85"/>
+  <text x="240" y="545" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#ffffff" opacity="0.85" font-weight="600">
+    Replace with your professional photo
+  </text>
+</svg>

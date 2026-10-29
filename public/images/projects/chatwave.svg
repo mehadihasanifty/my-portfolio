@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#082f49"/>
+      <stop offset="55%" stop-color="#0369a1"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <circle cx="180" cy="140" r="200" fill="#bae6fd" opacity="0.12"/>
+  <circle cx="1060" cy="620" r="230" fill="#e0f2fe" opacity="0.1"/>
+  <!-- Phone frame -->
+  <rect x="680" y="120" width="360" height="560" rx="36" fill="#0f172a" opacity="0.92"/>
+  <!-- Chat header -->
+  <rect x="680" y="120" width="360" height="70" rx="36" fill="#0f172a"/>
+  <circle cx="720" cy="155" r="22" fill="#38bdf8"/>
+  <rect x="756" y="142" width="120" height="14" rx="7" fill="#94a3b8"/>
+  <rect x="756" y="164" width="80" height="10" rx="5" fill="#22d3ee"/>
+  <!-- Incoming + outgoing bubbles -->
+  <rect x="700" y="228" width="200" height="54" rx="16" fill="#1e293b"/>
+  <rect x="716" y="246" width="140" height="10" rx="5" fill="#94a3b8"/>
+  <rect x="820" y="304" width="200" height="54" rx="16" fill="#0369a1"/>
+  <rect x="836" y="322" width="140" height="10" rx="5" fill="#e0f2fe"/>
+  <rect x="700" y="380" width="240" height="54" rx="16" fill="#1e293b"/>
+  <rect x="716" y="398" width="170" height="10" rx="5" fill="#94a3b8"/>
+  <rect x="780" y="456" width="240" height="54" rx="16" fill="#0369a1"/>
+  <rect x="796" y="474" width="170" height="10" rx="5" fill="#e0f2fe"/>
+  <rect x="880" y="532" width="80" height="26" rx="13" fill="#0e7490"/>
+  <circle cx="905" cy="545" r="3" fill="#e0f2fe"/>
+  <circle cx="920" cy="545" r="3" fill="#e0f2fe"/>
+  <circle cx="935" cy="545" r="3" fill="#e0f2fe"/>
+  <!-- Typing indicator bubble -->
+  <rect x="700" y="610" width="120" height="40" rx="20" fill="#1e293b"/>
+  <circle cx="724" cy="630" r="4" fill="#22d3ee"/>
+  <circle cx="744" cy="630" r="4" fill="#22d3ee"/>
+  <circle cx="764" cy="630" r="4" fill="#22d3ee"/>
+  <!-- Presence avatars on the left -->
+  <circle cx="240" cy="200" r="56" fill="#0ea5e9" opacity="0.9"/>
+  <circle cx="410" cy="330" r="42" fill="#7dd3fc" opacity="0.85"/>
+  <circle cx="230" cy="460" r="34" fill="#38bdf8" opacity="0.8"/>
+  <circle cx="420" cy="560" r="26" fill="#bae6fd" opacity="0.75"/>
+  <!-- Online dots -->
+  <circle cx="284" cy="184" r="14" fill="#34d399"/>
+  <circle cx="442" cy="314" r="10" fill="#34d399"/>
+  <circle cx="254" cy="446" r="8" fill="#34d399"/>
+  <text x="330" y="710" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" fill="#bae6fd" font-weight="700" letter-spacing="2">CHATWAVE</text>
+</svg>

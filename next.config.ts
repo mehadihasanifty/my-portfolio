@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
   reactCompiler: true,
+  images: {
+    // Placeholder artwork is local, trusted SVG
+    dangerouslyAllowSVG: true,
+    contentDispositionType: "inline",
+  },
   turbopack: {
     rules: {
       "*.css": {

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="55%" stop-color="#4338ca"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <circle cx="160" cy="120" r="220" fill="#a5b4fc" opacity="0.12"/>
+  <circle cx="1080" cy="650" r="260" fill="#c4b5fd" opacity="0.12"/>
+  <!-- Browser mockup -->
+  <rect x="230" y="150" width="740" height="480" rx="20" fill="#0f172a" opacity="0.85"/>
+  <rect x="230" y="150" width="740" height="52" rx="20" fill="#0f172a"/>
+  <circle cx="275" cy="176" r="8" fill="#f87171"/>
+  <circle cx="303" cy="176" r="8" fill="#fbbf24"/>
+  <circle cx="331" cy="176" r="8" fill="#34d399"/>
+  <rect x="420" y="166" width="340" height="20" rx="10" fill="#1e293b"/>
+  <!-- Sidebar -->
+  <rect x="262" y="234" width="150" height="364" rx="12" fill="#1e293b"/>
+  <rect x="282" y="262" width="110" height="14" rx="7" fill="#818cf8"/>
+  <rect x="282" y="298" width="90" height="12" rx="6" fill="#334155"/>
+  <rect x="282" y="326" width="110" height="12" rx="6" fill="#334155"/>
+  <rect x="282" y="354" width="84" height="12" rx="6" fill="#334155"/>
+  <rect x="282" y="382" width="104" height="12" rx="6" fill="#334155"/>
+  <!-- Kanban columns -->
+  <rect x="440" y="234" width="200" height="364" rx="12" fill="#1e293b"/>
+  <rect x="458" y="256" width="110" height="14" rx="7" fill="#34d399"/>
+  <rect x="458" y="290" width="164" height="72" rx="10" fill="#334155"/>
+  <rect x="458" y="308" width="120" height="10" rx="5" fill="#94a3b8"/>
+  <rect x="458" y="328" width="90" height="10" rx="5" fill="#475569"/>
+  <rect x="458" y="380" width="164" height="72" rx="10" fill="#334155"/>
+  <rect x="458" y="398" width="130" height="10" rx="5" fill="#94a3b8"/>
+  <rect x="458" y="418" width="84" height="10" rx="5" fill="#475569"/>
+  <rect x="678" y="234" width="200" height="364" rx="12" fill="#1e293b"/>
+  <rect x="696" y="256" width="110" height="14" rx="7" fill="#818cf8"/>
+  <rect x="696" y="290" width="164" height="72" rx="10" fill="#334155"/>
+  <rect x="696" y="308" width="100" height="10" rx="5" fill="#94a3b8"/>
+  <rect x="696" y="380" width="164" height="72" rx="10" fill="#334155"/>
+  <rect x="696" y="398" width="130" height="10" rx="5" fill="#94a3b8"/>
+  <rect x="916" y="234" width="200" height="364" rx="12" fill="#1e293b"/>
+  <rect x="934" y="256" width="110" height="14" rx="7" fill="#f472b6"/>
+  <rect x="934" y="290" width="164" height="72" rx="10" fill="#334155"/>
+  <rect x="934" y="308" width="110" height="10" rx="5" fill="#94a3b8"/>
+  <text x="600" y="710" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" fill="#c7d2fe" font-weight="700" letter-spacing="2">TASKFLOW</text>
+</svg>
