@@ -274,6 +274,65 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "book-nook",
+    name: "Book Nook",
+    category: "Full Stack - A Small Online Library",
+    tagline: "Every Book Opens a New World.",
+    image: "/images/book-nook.png",
+    tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "shadcn/ui", "Node.js", "Express.js", "MongoDB", "Better Auth", "REST API"],
+    liveUrl: "https://booknook-client-ebon.vercel.app/",
+    repoUrl: "https://github.com/mehadihasanifty/book-nook-client.git",
+    description: [
+  "BookNook is a small online library platform designed to make book discovery and borrowing simple and convenient. Users can explore a collection of books, view detailed book information, borrow books, and manage their borrowed books through a personalized dashboard. The platform features secure authentication, a responsive interface, and database-driven functionality to provide a smooth digital library experience."
+],
+
+features: [
+     
+"Secure user authentication with Better Auth.",
+"Browse and discover a collection of books.",
+"View detailed book information and availability.",
+"Add, update, and delete book records.",
+"Borrow and return books.",
+"Personalized dashboard to manage personal books.",
+"Track borrowed books and return dates.",
+"Protected routes for authenticated users.",
+"Responsive UI for all screen sizes.",
+"REST API integration with MongoDB for data management."
+    ],
+
+highlights: [
+  "ull-stack online library application.",
+"Secure authentication using Better Auth.",
+"Complete book CRUD operations.",
+"Book borrowing and return management.",
+"Personalized user dashboard.",
+"REST API and MongoDB integration.",
+"Responsive and modern user interface.",
+"Protected routes and user-specific functionality.",
+],
+
+challenges: [
+"Integrating Better Auth for secure authentication and session management.",
+"Handling API requests and errors between the frontend and backend.",
+"Managing book records and borrowing data in MongoDB.",
+"Implementing borrowing and return logic with proper availability checks.",
+"Protecting private routes and managing user-specific access.",
+"Maintaining consistent data across dashboards and book management pages.",
+"Ensuring responsive layouts across different devices."
+],
+
+improvements: [
+"Implement advanced book search, filtering, and sorting.",
+"Introduce a book rating and review system.",
+"Add a wishlist feature for saving favorite books.",
+"Develop an admin dashboard for centralized management.",
+"Integrate email notifications for borrowing and return reminders.",
+"Optimize performance with pagination and efficient data fetching.",
+"Add personalized book recommendations.",
+"Introduce reading history and activity tracking.",
+]
+  },
+  {
     slug: "bazar-dor",
     name: "Bazar Dor",
     category: "Market Price Tracker",
