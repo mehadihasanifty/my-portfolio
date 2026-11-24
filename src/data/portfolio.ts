@@ -274,6 +274,82 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "wed-plan",
+name: "WedPlan",
+category: "Full Stack - Wedding Planning & Management Platform",
+tagline: "Your Dream Wedding, Perfectly Planned.",
+    image: "/images/wedplan.png",
+    tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "shadcn/ui", "Node.js", "Express.js", "MongoDB", "Better Auth","REST API", "Stripe", "Cloudinary"],
+    liveUrl: "https://wedplan-client-alpha.vercel.app/",
+    repoUrl: "https://github.com/mehadihasanifty/wedplan-client.git",
+    description: [
+  "WedPlan is a comprehensive wedding planning and management platform designed to make organizing a dream wedding effortless and stress-free. It connects couples with wedding service providers, allowing users to explore vendors, manage bookings, plan budgets, and organize every detail of their special day in one place. The platform features secure authentication, vendor management, booking and payment functionality, and a personalized dashboard, delivering a seamless and organized wedding planning experience through a modern, responsive interface."
+],
+
+features: [
+     
+"Secure user authentication and role-based access control for customers and vendors.",
+"Explore and discover wedding venues, photographers, caterers, decorators, and other service providers.",
+"Detailed vendor profiles with service descriptions, pricing, portfolios, and availability.",
+"Advanced search and filtering to find wedding services based on category, location, and budget.",
+"Seamless vendor booking and reservation management.",
+"Real-time booking status updates and reservation tracking.",
+"Personalized dashboards for customers and service providers.",
+"Wedding budget planning and expense tracking.",
+"Manage wedding events, schedules, and important tasks through an organized planning system.",
+"Secure online payments and transaction management with Stripe.",
+"Vendor dashboard to manage services, bookings, availability, and customer requests.",
+"Review and rating system to help couples choose trusted wedding professionals.",
+"Wishlist functionality to save and manage favorite vendors.",
+"Protected routes and role-based permissions for secure platform access.",
+"Responsive and user-friendly interface optimized for desktop, tablet, and mobile devices.",
+"REST API integration with MongoDB for reliable data storage and management."
+    ],
+
+highlights: [
+"Full-stack wedding planning and management platform.",
+"Secure authentication with role-based access control.",
+"Comprehensive wedding vendor discovery and management.",
+"Advanced vendor search and filtering functionality.",
+"Seamless wedding service booking and reservation management.",
+"Personalized dashboards for customers and vendors.",
+"Wedding budget planning and expense tracking.",
+"Secure online payment integration with Stripe.",
+"Vendor reviews, ratings, and wishlist management.",
+"REST API and MongoDB integration.",
+"Protected routes and role-specific functionality.",
+"Fully responsive and modern user interface."
+],
+
+challenges: [
+"Implementing secure authentication and role-based authorization for customers and vendors.",
+"Designing a scalable vendor management system with dynamic service categories.",
+"Building an efficient search and filtering system based on service categories, locations, and budget ranges.",
+"Managing complex booking workflows, including availability checks, reservation requests, and booking status updates.",
+"Integrating Stripe payment processing and handling secure transaction workflows.",
+"Designing a reliable wedding budget management system with accurate expense tracking.",
+"Maintaining data consistency across vendor profiles, bookings, payments, and user dashboards.",
+"Handling API communication, server-side validation, and error management between frontend and backend.",
+"Implementing protected routes and ensuring secure access to role-specific resources.",
+"Developing responsive and consistent interfaces across different screen sizes and devices."
+],
+
+improvements: [
+"Implement AI-powered vendor recommendations based on wedding preferences, location, and budget.",
+"Introduce an advanced vendor search system with location-based filtering, sorting, and availability checks.",
+"Develop a comprehensive wedding checklist and event timeline management system.",
+"Enhance the budget planner with expense categorization, spending analytics, and budget insights.",
+"Integrate automated email and SMS notifications for booking confirmations, payment updates, and event reminders.",
+"Introduce real-time messaging between couples and wedding service providers.",
+"Expand the payment system with refunds, payment tracking, and transaction history.",
+"Develop an admin dashboard for managing users, vendors, bookings, payments, and platform activities.",
+"Implement vendor verification and approval workflows to improve platform trust and reliability.",
+"Optimize application performance through caching, pagination, image optimization, and efficient API queries.",
+"Introduce guest list management and digital wedding invitation functionality.",
+"Develop a mobile-friendly experience with improved accessibility and intuitive navigation."
+]
+  },
+  {
     slug: "book-nook",
     name: "Book Nook",
     category: "Full Stack - A Small Online Library",
