@@ -21,7 +21,7 @@ export const profile = {
   phoneHref: "+880 1812-684611",
   whatsapp: "+880 1812-684611",
   whatsappHref: "https://wa.me/8801812684611",
-  resumeUrl: "/Kazi_Mehadi_Hasan_Ifty_Resume.docx.pdf",
+  resumeUrl: "/public/Kazi_Mehadi_Hasan_Ifty_Resume.docx.pdf",
   yearsOfExperience: "Fresher",
   projectsCompleted: "7+",
   happyClients: "0",
